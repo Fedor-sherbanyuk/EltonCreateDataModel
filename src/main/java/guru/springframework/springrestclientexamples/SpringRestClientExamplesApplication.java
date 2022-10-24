@@ -1,13 +1,12 @@
-package guru.springframework.api.domain;
+package guru.springframework.springrestclientexamples;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class DemoApplication {
+public class SpringRestClientExamplesApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(DemoApplication.class, args);
+		SpringApplication.run(SpringRestClientExamplesApplication.class, args);
 	}
-
 }
